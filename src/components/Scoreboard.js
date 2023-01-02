@@ -3,8 +3,7 @@ function Scoreboard(props) {
 
   return (
     <div>
-      <div>Current Score: {score}</div>
-      <div>Highscore: {highscore}</div>
+      <div>Score: {score} | Highscore: {highscore}</div>
     </div>
   );
 }

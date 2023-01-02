@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import Cards from './Cards'
-import Scoreboard from './Scoreboard';
-import Level from './Level';
+import Cards from './Cards';
+import Header from './Header';
 
 function Game() {
   const [score, setScore] = useState(0);
@@ -43,7 +42,7 @@ function Game() {
     if(!cards.includes(cardName)) {
       handleCards(cardName);
       handleScore();
-      if(CARDS_PER_DECK - 1 === cards.length) {
+      if((CARDS_PER_DECK * level) - 1 === cards.length) {
         handleLevel();
         resetCurrentLevel();
         if(MAX_LEVEL === level) {
@@ -58,11 +57,10 @@ function Game() {
       resetGame();
     }
   }
-
+ 
   return (
     <div>
-      <Scoreboard score={score} highscore={highscore}></Scoreboard>
-      <Level level={level}></Level>
+      <Header score={score} highscore={highscore} level={level}></Header>
       <Cards handleGameLoop={handleGameLoop} level={level} score={score} highscore={highscore}></Cards>
     </div>
   );

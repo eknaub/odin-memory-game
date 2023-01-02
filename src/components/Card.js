@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/card.css'
 
 function Card(props) {
   const {
@@ -9,9 +10,10 @@ function Card(props) {
   return (
     <button
       onClick={handleGameLoop.bind(this, title)}
+      id='card'
     >
-      <figure>
-        <img src={imgPath} alt={title}/>
+      <figure id='cardContent'>
+        <img src={imgPath} alt={title} />
         <figcaption>{title}</figcaption>
       </figure>
     </button>

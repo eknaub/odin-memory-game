@@ -110,7 +110,7 @@ function Cards(props) {
     },
     {
       imgPath: regis,
-      title: "Emiel Regis Rohellec Terzieff-Godefroy",
+      title: "Regis Terzieff-Godefroy",
     },
     {
       imgPath: triss,

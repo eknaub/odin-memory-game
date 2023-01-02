@@ -1,8 +1,9 @@
 import Game from './components/Game'
+import './styles/app.css'
 
 function App() {
   return (
-    <div>
+    <div id='app'>
       <Game></Game>
     </div>
   );
