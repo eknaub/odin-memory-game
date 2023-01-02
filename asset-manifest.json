@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/odin-memory-game/static/css/main.bc24984c.css",
-    "main.js": "/odin-memory-game/static/js/main.9fd585be.js",
+    "main.js": "/odin-memory-game/static/js/main.62bc19d4.js",
     "static/media/theGreatOak.jpg": "/odin-memory-game/static/media/theGreatOak.dfd6440733fcfea98746.jpg",
     "static/media/draug.jpg": "/odin-memory-game/static/media/draug.d855fb2f9e469588cb33.jpg",
     "static/media/annaHenrietta.jpg": "/odin-memory-game/static/media/annaHenrietta.fe8aff168f378184c32b.jpg",
@@ -53,10 +53,10 @@
     "static/media/tirnalia.jpg": "/odin-memory-game/static/media/tirnalia.437afe41b2ffd6c08e19.jpg",
     "index.html": "/odin-memory-game/index.html",
     "main.bc24984c.css.map": "/odin-memory-game/static/css/main.bc24984c.css.map",
-    "main.9fd585be.js.map": "/odin-memory-game/static/js/main.9fd585be.js.map"
+    "main.62bc19d4.js.map": "/odin-memory-game/static/js/main.62bc19d4.js.map"
   },
   "entrypoints": [
     "static/css/main.bc24984c.css",
-    "static/js/main.9fd585be.js"
+    "static/js/main.62bc19d4.js"
   ]
 }
